@@ -1,11 +1,3 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
----
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
-
----
 
 # Developer Portfolio
 
@@ -21,7 +13,7 @@
 
 ---
 
-## Table of Contents :scroll:
+## Table of Contents 
 
 - [Sections](#sections-bookmark)
 - [Demo](#demo-movie_camera)
@@ -32,7 +24,7 @@
 
 ---
 
-# Sections :bookmark:
+# Sections 
 
 - HERO SECTION
 - ABOUT ME
@@ -45,7 +37,7 @@
 
 ---
 
-# Installation :arrow_down:
+# Installation 
 
 ### You will need to download Git and Node to run this project
 
@@ -61,7 +53,7 @@ git --version
 
 ## <br />
 
-# Getting Started :dart:
+# Getting Started 
 
 ### Fork and Clone the repo
 
@@ -109,26 +101,26 @@ NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
 NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
 ```
 
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
+### Then, Customize data in the `utils/data` [folder](https://github.com/bjmmtin/developer-portfolio/tree/main/utils/data).
 
 Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  name: "",
+  profile: "",
+  designation: "",
+  description: "",
+  email: "",
+  phone: "",
+  address: "",
+  github: "",
+  facebook: "",
+  linkedIn: "",
+  twitter: "",
+  stackOverflow: "",
+  leetcode: "",
+  devUsername: "",
   resume: "...",
 };
 ```
