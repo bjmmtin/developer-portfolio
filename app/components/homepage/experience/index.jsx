@@ -59,12 +59,19 @@ function Experience() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-base sm:text-2xl mb-2  uppercase">
                             {experience.title}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm font-medium text-amber-300 sm:text-base">
                             {experience.company}
                           </p>
+                          <ul className="text-sm sm:text-base pt-5 ">
+                            {experience.contents.map((content, idx) => (
+                              <li key={idx} className="list-disc py-1">
+                                {content}
+                              </li>
+                            ))}
+                          </ul>
                         </div>
                       </div>
                     </div>
