@@ -9,35 +9,11 @@
 
 ![](./public/image/screen.png)
 
-## View live preview [here](https://abusaid.netlify.app/).
+
 
 ---
 
-## Table of Contents 
-
-- [Sections](#sections-bookmark)
-- [Demo](#demo-movie_camera)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Packages Used](#packages-used-package)
-
----
-
-# Sections 
-
-- HERO SECTION
-- ABOUT ME
-- EXPERIENCE
-- SKILLS
-- PROJECTS
-- EDUCATION
-- BLOG
-- CONTACTS
-
----
-
-# Installation 
+# Installation :arrow_down:
 
 ### You will need to download Git and Node to run this project
 
@@ -53,7 +29,7 @@ git --version
 
 ## <br />
 
-# Getting Started 
+# Getting Started :dart:
 
 ### Fork and Clone the repo
 
@@ -127,9 +103,6 @@ export const personalData = {
 
 `devUsername` Used for fetching blog from `dev.to`.
 
----
-
----
 
 # Packages Used :package:
 
