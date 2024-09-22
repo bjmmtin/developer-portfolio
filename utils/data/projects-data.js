@@ -1,7 +1,7 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+// import ayla from '/public/image/ayla.jpg';
+// import crefin from '/public/image/crefin.jpg';
+// import realEstate from '/public/image/real-estate.jpg';
+// import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
@@ -12,7 +12,6 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: crefin,
     },
     {
         id: 2,
@@ -22,7 +21,6 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: '',
         demo: '',
-        image: travel,
     },
     {
         id: 3,
@@ -32,7 +30,6 @@ export const projectsData = [
         code: '',
         role: 'Full Stack Developer',
         demo: '',
-        image: realEstate,
     }
 ];
 
