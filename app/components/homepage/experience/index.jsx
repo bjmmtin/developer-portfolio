@@ -28,7 +28,7 @@ function Experience() {
         </div>
       </div>
 
-      <div className="py-8">
+      <div className="py-8 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
@@ -37,35 +37,35 @@ function Experience() {
           </div>
 
           <div>
-            <div className="flex flex-col gap-6">
-              {
-                experiences.map(experience => (
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
-                    <div className="p-3 relative">
-                      <Image
-                        src="/blur-23.svg"
-                        alt="Hero"
-                        width={1080}
-                        height={200}
-                        className="absolute bottom-0 opacity-80"
-                      />
-                      <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {experience.duration}
-                        </p>
+            <div className="flex flex-col gap-6 ">
+              {experiences.map(experience => (
+                <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+                  <div className="p-3 relative group"> 
+                    <Image
+                      src="/blur-23.svg"
+                      alt={`Background for ${experience.title}`}
+                      width={1080}
+                      height={200}
+                      className="absolute bottom-0 opacity-80"
+                    />
+                    <div className="flex justify-center">
+                      <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        {experience.duration}
+                      </p>
+                    </div>
+                    <div className="flex items-center gap-x-8 px-3 py-5">
+                      <div className="text-violet-500 transition-transform duration-300 hover:scale-125">
+                        <BsPersonWorkspace size={36} />
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
-                        </div>
-                        <div>
-                          <p className="text-base sm:text-2xl mb-2  uppercase">
-                            {experience.title}
-                          </p>
-                          <p className="text-sm font-medium text-amber-300 sm:text-base">
-                            {experience.company}
-                          </p>
-                          <ul className="text-sm sm:text-base pt-5 ">
+                      <div className="relative">
+                        <p className="text-base sm:text-2xl mb-2 uppercase">
+                          {experience.title}
+                        </p>
+                        <p className="text-sm font-medium text-amber-300 sm:text-base">
+                          {experience.company}
+                        </p>
+                        <div className="hidden group-hover:block transition-all duration-1000">
+                          <ul className="text-sm sm:text-base pt-5">
                             {experience.contents.map((content, idx) => (
                               <li key={idx} className="list-disc py-1">
                                 {content}
@@ -75,9 +75,9 @@ function Experience() {
                         </div>
                       </div>
                     </div>
-                  </GlowCard>
-                ))
-              }
+                  </div>
+                </GlowCard>
+              ))}
             </div>
           </div>
         </div>
