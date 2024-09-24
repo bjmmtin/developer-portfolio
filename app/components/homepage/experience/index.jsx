@@ -40,13 +40,13 @@ function Experience() {
             <div className="flex flex-col gap-6 ">
               {experiences.map(experience => (
                 <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
-                  <div className="p-3 relative group"> 
+                  <div className="p-3 relative group">
                     <Image
                       src="/blur-23.svg"
                       alt={`Background for ${experience.title}`}
                       width={1080}
                       height={200}
-                      className="absolute bottom-0 opacity-80"
+                      className="absolute bottom-0 opacity-80 h-[150px]"
                     />
                     <div className="flex justify-center">
                       <p className="text-xs sm:text-sm text-[#16f2b3]">
@@ -64,7 +64,7 @@ function Experience() {
                         <p className="text-sm font-medium text-amber-300 sm:text-base">
                           {experience.company}
                         </p>
-                        <div className="hidden group-hover:block transition-all duration-1000">
+                        <div className="hidden group-hover:block">
                           <ul className="text-sm sm:text-base pt-5">
                             {experience.contents.map((content, idx) => (
                               <li key={idx} className="list-disc py-1">
